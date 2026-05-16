@@ -1,49 +1,58 @@
-<div align="center">
-  <h1>🔥 rafiqdev1 — Termux Power Tools</h1>
-  <h3>Termux Automation Expert & Python CLI Tools Developer</h3>
-  
-  <img src="https://img.shields.io/badge/Termux-Expert-00FF00?style=for-the-badge&logo=android&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-Advanced-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/CLI_Tools-Professional-FF6B6B?style=for-the-badge" />
-  
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rafiqdev1&show_icons=true&theme=radical&hide_border=true)
-  
-  <h3>Building powerful command-line tools that turn Android into a pro workstation</h3>
+
+<!<div align="center">
+  <h1>🔥 Vidly Pro</h1>
+  <h3>Advanced Media Downloader CLI for Termux</h3>
+
+  <p>
+    <img src="https://img.shields.io/badge/Termux-Compatible-brightgreen?style=for-the-badge&logo=android" alt="Termux">
+    <img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python" alt="Python">
+    <img src="https://img.shields.io/badge/yt--dlp-Powered-red?style=for-the-badge" alt="yt-dlp">
+    <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License">
+  </p>
+
+  <img src="https://via.placeholder.com/800x250/FF4500/FFFFFF?text=Vidly+Pro+-+Termux+Media+Downloader" alt="Vidly Pro Banner" width="800">
 </div>
 
 ---
 
-### 🚀 What I Specialize In
-- High-quality **CLI Tools** for Termux
-- Media downloaders, file automation, security & productivity tools
-- Custom automation scripts for Android users and freelancers
+**Vidly Pro** is a powerful, beautiful, and user-friendly Command Line Tool built specifically for **Termux** that lets you download high-quality videos and audio from YouTube, Instagram, Facebook, TikTok, and 1000+ other platforms.
 
-### 🛠️ Featured Tools
-(Coming soon — 5+ professional tools)
+### ✨ Key Features
 
-### 💼 Open for Freelance
-- Custom Termux/Python CLI Tool Development
-- Automation Scripts
-- Advanced Downloader Tools
-- File Management Systems
+- **Stunning CLI Interface** with animated banner and Rich styling
+- **High-Quality Video Downloads** (Best, 1080p, 720p, 480p, etc.)
+- **Audio Only (MP3)** with metadata & thumbnail embedding
+- **Playlist & Channel Support**
+- **Custom Download Folder** selection
+- **Real-time Progress Bar** with ETA and speed
+- **Fast & Reliable** using latest yt-dlp
+- **Lightweight & Optimized** for Android/Termux
+- **Multiple Language Support** (English + Urdu)
 
-**Currently accepting projects** — DM me for custom requirements.
+### 📸 Screenshots / Demo
 
----
+*(Add your screenshots and GIFs here — highly recommended)*
 
-### 📊 Tech Stack
-- **Languages**: Python, Bash
-- **Key Libraries**: yt-dlp, rich, cryptography, pillow, requests, ffmpeg
-- **Platform**: Termux (Android)
+### 🚀 Quick Installation
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rafiqdev1&theme=radical" alt="GitHub Streak" />
-</div>
+```bash
+# Update Termux
+pkg update && pkg upgrade -y
 
----
-**Made with passion for Termux community** ⚡
+# Install dependencies
+pkg install python git ffmpeg -y
+pip install yt-dlp rich colorama
 
-<!--
+# Clone repository
+git clone https://github.com/rafiqdev1/vidly-pro.git
+cd vidly-pro
+
+# Install requirements
+pip install -r requirements.txt
+
+# Make it easily accessible (optional but recommended)
+chmod +x install.sh
+bash install.sh--
 **rafiqdev1/rafiqdev1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
